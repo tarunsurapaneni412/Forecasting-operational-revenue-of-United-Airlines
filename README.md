@@ -165,3 +165,54 @@ Shown below are the graphs of forecasting in Naïve and Seasonal Naïve model an
    ![](Images/16.png)
 
    ![](Images/17.png)
+   
+**Model 3: Two Level Model**
+
+**Regression Model with Linear Trend and Seasonality:**
+
+-	Shown below is the summary of Regression model with linear trend and seasonality, we have a total 3 seasons i.e., season 2,3 and 4 with trend component and an intercept. The p-value for all 2 seasons is higher than 0.1 and for season 4 it’s as huge as 0.9 which is close to 1. These values appear to be statistically insignificant, since all these values are insignificant, it might not be used for forecasting. The r-squared values are also not above 0.8 and are significantly low.
+
+     ![](Images/18.png)
+ 
+-	Equation for this model is: 
+yt = 2089254 + 100291t + 667682D2 + 743323D3 – 32470D4
+-	Forecasting based on linear trend and seasonality is shown below:
+
+     ![](Images/19.png)
+ 
+-	Displayed below is the residuals for time series based on the regression for linear trend and seasonality:
+
+     ![](Images/20.png)
+ 
+
+Trailing MA:
+-	The trailing MA forecast for regression residuals is shown below:
+
+     ![](Images/21.png)
+ 
+-	Shown below, we have created a combined table for forecasts of 
+1.	Linear regression with trend and seasonality, 
+2.	Residuals and 
+3.	Two-level model (Combined model)
+
+     ![](Images/22.png)
+ 
+**Graphs:**
+-	Shown below are the graphs for the Regression model with trend and Seasonality wherein we can see how the original data is compared with the performance of the regression model for trend and seasonality
+-	There are certain regions of over and or underfitting at times. It is at times underpredicting the forecast.
+
+     ![](Images/23.png)
+     
+     ![](Images/24.png)
+ 
+ 
+In the second graph, we have plotted the residuals for the trailing MA, with a window width of k=4.
+
+
+**Regression Model with Quadratic trend and Seasonality:**
+
+-	Shown below is the summary of Regression model with Quadratic trend and seasonality, we have a total of 3 seasons i.e., season 2, 3 and 4 with trend and trend^2 component and an intercept. The p-value for all 2 seasons is higher than 0.06 and 0.01 resp, for season 4 it’s as huge as 0.8 which is close to 1. The r-squared values are also above 0.8, which suggests it can be a good model.
+-	Here, season 4 is statistically insignificant as the p value is greater than 0.5. But the overall model is statistically significant, hence can be used for forecasting. 
+
+     ![](Images/25.png)
+
