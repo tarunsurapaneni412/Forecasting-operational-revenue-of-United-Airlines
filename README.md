@@ -81,37 +81,42 @@ This is the initial snapshot of the data and as we can see the data contains all
 
 Part 1:
 Omitting data which is not required for forecasting purposes:
-	The International column doesn't hold any data on operational revenue. 
-	The ''total'' column holds the summation of operational revenue of the individual regions, so the individual revenue columns are not needed for forecasting purposes, and hence have been dropped. 
-	There are certain rows that indicate the annual total (like line 5 provided in the above snapshot) that are not needed for computation, so these rows were also dropped. 
-	The preprocessed dataset is exported as a csv file under the name “unitedprepro”.
+-	The International column doesn't hold any data on operational revenue. 
+-	The ''total'' column holds the summation of operational revenue of the individual regions, so the individual revenue columns are not needed for forecasting purposes, and hence have been dropped. 
+-	There are certain rows that indicate the annual total (like line 5 provided in the above snapshot) that are not needed for computation, so these rows were also dropped. 
+-	The preprocessed dataset is exported as a csv file under the name “unitedprepro”.
 Part 2:
 Pre-Processing in Excel:
-	The "Year" and the "Quarter" columns have been merged into 1 column and with respect to the ''Total" column the comma separators have been removed.
+-	The "Year" and the "Quarter" columns have been merged into 1 column and with respect to the ''Total" column the comma separators have been removed.
 
-	The snapshot of the final dataset that is going to be used for forecasting purposes is shown below:
+-	The snapshot of the final dataset that is going to be used for forecasting purposes is shown below:
 
    ![](Images/5.png)
  
 
 Step 5 - Partition series 
 We created a data partition of 66 records for the training period and 16 records for validation period. 
-	The training partition holds the data for the years:
+-	The training partition holds the data for the years:
 Quarter 1 of 2000 to Quarter 2 of 2016.
-	The validation partition holds the data for the years:
+-	The validation partition holds the data for the years:
 Quarter 3 of 2016 to quarter 2 of 2020  
+
 The training Partition is shown below:
+
+  ![](Images/6.png)
  
 The Validation Partition is shown below:
+  
+  ![](Images/7.png)
  
 Step 6 - Applying forecasting methods 
 Model 1: Linear and Quadratic Trend 
-	Equation for Regression model with linear trend is 
+-	Equation for Regression model with linear trend is 
 yt= 2434303 + 100268 t
  
-	Equation for Regression model with quadratic trend is 
+-	Equation for Regression model with quadratic trend is 
 yt = 4465129.9 - 78922 t + 2674.5 t2
  
-	We have applied this basic model on training and validation dataset, the results are as shown above, the p-value in this case is very less than 0.2 for both the trend and the intercept, even though the R-squared values are close to 0.6 and 0.8 resp for linear and quad trend, this indicates that this is a good model.
-	The forecasting is applied on these models and results are shown below:
+-	We have applied this basic model on training and validation dataset, the results are as shown above, the p-value in this case is very less than 0.2 for both the trend and the intercept, even though the R-squared values are close to 0.6 and 0.8 resp for linear and quad trend, this indicates that this is a good model.
+-	The forecasting is applied on these models and results are shown below:
 
