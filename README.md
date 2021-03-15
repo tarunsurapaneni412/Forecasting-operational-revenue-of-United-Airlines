@@ -126,3 +126,23 @@ yt = 4465129.9 - 78922 t + 2674.5 t2
 -	We have applied this basic model on training and validation dataset, the results are as shown above, the p-value in this case is very less than 0.2 for both the trend and the intercept, even though the R-squared values are close to 0.6 and 0.8 resp for linear and quad trend, this indicates that this is a good model.
 -	The forecasting is applied on these models and results are shown below:
 
+   ![](Images/10.png)
+   ![](Images/10.1.png)
+   
+**Graphs**
+
+Below graph shows the linear trend forecast on the entire dataset and how the linear trend forecast compares with the original data.
+
+   ![](Images/11.png)   
+ 
+Above graph shows the quadratic trend forecast on the entire dataset and how the quadratic trend forecast compares with the original data in training, validation and future data.
+
+   ![](Images/12.png)
+ 
+
+**Model 2: Naïve and Seasonal Naïve**
+
+**Naïve:**
+- The naïve model has a MAPE value of 9.70 % and RMSE value of 789420.7 on the training dataset which are the percentage of error and margin of error respectively.
+
+   ![](Images/13.png)
