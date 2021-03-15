@@ -146,3 +146,21 @@ Above graph shows the quadratic trend forecast on the entire dataset and how the
 - The naïve model has a MAPE value of 9.70 % and RMSE value of 789420.7 on the training dataset which are the percentage of error and margin of error respectively.
 
    ![](Images/13.png)
+   
+**Snaive:**
+-	The snaive model has a MAPE value of 12.83 % and RMSE value of 1172760, which are percentage of error the margin of errors respectively.
+
+   ![](Images/14.png)
+ 
+-	After comparing both these models we can say that Naive has lower RMSE and MAPE values and hence can be considered as a better model for forecasting future prediction.
+-	The forecasting is applied on these models and results are shown below:
+
+    ![](Images/15.png)	 
+
+
+
+**Graphs:**
+Shown below are the graphs of forecasting in Naïve and Seasonal Naïve model and it’s fit (over or under) in comparison with the original data.
+
+   ![](Images/16.png)
+
