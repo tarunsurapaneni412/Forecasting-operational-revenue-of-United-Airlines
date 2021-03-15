@@ -77,7 +77,7 @@ The data that we have, has been provided by the United States Department of Tran
 
 This is the initial snapshot of the data and as we can see the data contains all regions of operations (Domestic, Latin America, Atlantic, Pacific, International).
 
-      ![](Images/5.png)
+   ![](Images/5.png)
 
 Part 1:
 Omitting data which is not required for forecasting purposes:
@@ -91,7 +91,7 @@ Pre-Processing in Excel:
 
 	The snapshot of the final dataset that is going to be used for forecasting purposes is shown below:
 
-      ![](Images/6.png)
+   ![](Images/6.png)
  
 
 Step 5 - Partition series 
