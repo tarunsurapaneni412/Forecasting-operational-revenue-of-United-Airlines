@@ -111,11 +111,17 @@ The Validation Partition is shown below:
  
 Step 6 - Applying forecasting methods 
 Model 1: Linear and Quadratic Trend 
+
 -	Equation for Regression model with linear trend is 
 yt= 2434303 + 100268 t
+
+   ![](Images/8.png)
  
+
 -	Equation for Regression model with quadratic trend is 
 yt = 4465129.9 - 78922 t + 2674.5 t2
+
+   ![](Images/9.png)
  
 -	We have applied this basic model on training and validation dataset, the results are as shown above, the p-value in this case is very less than 0.2 for both the trend and the intercept, even though the R-squared values are close to 0.6 and 0.8 resp for linear and quad trend, this indicates that this is a good model.
 -	The forecasting is applied on these models and results are shown below:
