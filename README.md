@@ -51,6 +51,8 @@ The data is collected from the ‘Bureau of Transportation Statistics’ website
 
 **Step 3 - Explore and Visualize series** 
 -	Firstly, we characterize the time series of this dataset 
+
+![](Images/1.png)
  
 -	Then we use the plot function as follows:
  
