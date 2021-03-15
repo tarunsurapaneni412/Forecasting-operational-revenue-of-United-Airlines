@@ -68,6 +68,6 @@ The data is collected from the ‘Bureau of Transportation Statistics’ website
 -	From the last quarter of 2019 until the final 2nd quarter of 2020 there is a very huge decline in the operational revenue, which is probably because of COVID 19.
 -	The ACF chart for this entire dataset is shown below:
 
-   ![](Images/4.png)
+     ![](Images/4.png)
 
 The autocorrelation coefficients in the above chart are higher than the threshold value for all the lags. In lag 1 the higher threshold indicates of an upward trend initially, all of these values are statistically significant and hence points towards seasonal component in the data
