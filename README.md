@@ -164,3 +164,4 @@ Shown below are the graphs of forecasting in Naïve and Seasonal Naïve model an
 
    ![](Images/16.png)
 
+   ![](Images/17.png)
