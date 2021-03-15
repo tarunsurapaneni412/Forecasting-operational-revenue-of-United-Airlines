@@ -52,16 +52,22 @@ The data is collected from the ‘Bureau of Transportation Statistics’ website
 **Step 3 - Explore and Visualize series** 
 -	Firstly, we characterize the time series of this dataset 
 
-![](Images/1.png)
+     ![](Images/1.png)
  
 -	Then we use the plot function as follows:
+
+    ![](Images/2.png)
  
 -	Visualizing the data plot can be done by using the plot function. The quarterly operations revenue is shown in the chart below:
+
+    ![](Images/3.png)
 
 -	The data plot above shows the Operational cost on the left (Y-axis) and years on (X-axis).
 -	As one can see the cost goes on increasing from 1st quarter to second quarter in 2000 and then there is slight decrease until the final quarter of 2001, then there is small upward trend from 2002 to year 2008 but then there is a sudden decline in the revenue in the final quarters of 2008 and initial quarters of 2009. There is again a sudden increase from 1st quarter of 2012 to approx. $860000 million.
 -	From the year 2013, we can see some trend as the revenue increases in 1st two quarters and slightly decreases in 3rd and 4th quarter.
 -	From the last quarter of 2019 until the final 2nd quarter of 2020 there is a very huge decline in the operational revenue, which is probably because of COVID 19.
 -	The ACF chart for this entire dataset is shown below:
+
+   ![](Images/4.png)
 
 The autocorrelation coefficients in the above chart are higher than the threshold value for all the lags. In lag 1 the higher threshold indicates of an upward trend initially, all of these values are statistically significant and hence points towards seasonal component in the data
